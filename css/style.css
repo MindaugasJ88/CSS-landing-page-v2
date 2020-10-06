@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px; 
+}
+
+div.header-wrapper,
+.get-started-wrapper,
+.testimonials-wrapper,
+.bottom-section-wrapper,
+.footer-wrapper {
+    padding: 30px 60px 30px 60px;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+/* HEADER SECTION */
+
+div.header-wrapper {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+div.header-wrapper nav {
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+div.header-wrapper nav a {
+    padding-left: 30px;
+    color: black ;
+}
+
+div.header-wrapper nav a:hover {
+    text-decoration: underline;
+    color: hsla(224, 93%, 58%, 1);
+}
+
+/* FIRST SECTION - GET STARTED */
+
+.get-started-wrapper .get-started-block {
+    align-self: center;
+    flex: 0 0 45%;
+}
+
+.get-started-block h2 {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.get-started-block form {
+    margin-top: 25px;
+}
+
+form input {
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+form input:first-child {
+    color: hsl(0, 0%, 75%);
+    width: 300px;
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+form input:nth-child(2) {
+    color: white;
+    background-color: hsla(224, 93%, 58%, 1);
+    width: 200px;
+    text-align: center;
+    border: none;
+    padding: 14px 12px;
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(191,191,191,1);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(191,191,191,1);
+    box-shadow: -1px 2px 5px 0px rgba(191,191,191,1);
+}
+
+.get-started-block form input:nth-child(2):hover {
+    background-color: hsla(170, 45%, 43%, 1);
+}
+
+.get-started-wrapper .image-block {
+    flex: 0 0 55%;
+}
+
+.get-started-wrapper .image-block img,
+.testimonials-wrapper .testimonials-image img {
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+}
+
+div.bg-curve {
+    margin-top: 60px;
+}
+
+div.bg-curve img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* SECOND SECTION - TESTIMONIALS */
+
+section.testimonials {
+    background-color: #F8F8FE;
+}
+
+.testimonials-wrapper .testimonials-block {
+    flex: 0 0 50%;
+}
+
+.testimonials-wrapper .testimonials-block .testimonials-text {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.testimonials-wrapper .testimonials-block .testimonials-text p {
+    padding-bottom: 20px;
+}
+
+.testimonials-wrapper .testimonials-block .testimonials-text a {
+    color: hsla(170, 45%, 43%, 1);
+    border-bottom: solid 1px hsla(170, 45%, 43%, 1);
+}
+
+.testimonials-wrapper .testimonials-block .testimonials-text a:hover {
+    color: hsla(243, 87%, 12%, 1);
+    border-bottom: solid 1px hsla(243, 87%, 12%, 1);
+}
+
+.testimonials-wrapper .testimonials-block .testimonials-text img {
+    vertical-align: middle;
+}
+
+.testimonials-wrapper .testimonials-block .review-block {
+    width: 50%;
+    padding: 20px 35px;
+    margin: 50px 0 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: left;
+    -webkit-box-shadow: -1px 2px 8px 5px rgba(171,168,171,0.42);
+    -moz-box-shadow: -1px 2px 8px 5px rgba(171,168,171,0.42);
+    box-shadow: -1px 2px 8px 5px rgba(171,168,171,0.42);
+}
+
+.testimonials-wrapper .testimonials-block .review-block .avatar {
+    border-radius: 50%;
+    width: 35px;
+    margin-right: 10px;
+    float: left;
+}
+
+.testimonials-wrapper .testimonials-block .review-block .description {
+    padding-bottom: 15px;
+}
+
+.testimonials-wrapper .testimonials-block .review-block .name {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.testimonials-wrapper .testimonials-block .review-block .profession {
+    font-size: 11px;
+}
+
+.testimonials-wrapper .testimonials-image {
+    flex: 0 0 50%;
+    align-self: flex-start;
+}
+
+/* THIRD SECTION - GET EARLY ACESS */
+
+section.bottom-section {
+    background-color: hsla(238, 22%, 44%, 1);
+    color: white;
+    padding: 50px 0;
+}
+
+.bottom-section-wrapper .left-block,
+.bottom-section-wrapper .right-block {
+    flex: 0 0 50%;
+}
+
+.left-block h3 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.left-block p {
+    font-weight: 300;
+    padding-right: 30%;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.right-block form input {
+    margin-left: 30px;
+}
+
+.right-block form input:first-child {
+    display:block;
+    border: none;
+    width: 500px;
+    margin-bottom: 15px;
+    padding: 14px;
+
+}
+
+.right-block form input:nth-child(2) {
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(43,43,43,0.4);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(43,43,43,0.4);
+    box-shadow: -1px 2px 5px 0px rgba(43,43,43,0.4);
+}
+
+.right-block form input:nth-child(2):hover {
+    background-color: hsla(170, 45%, 43%, 1);
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 50px 0 20px;
+}
+
+.footer-wrapper {
+    flex-wrap: wrap;
+}
+
+div.footer-wrapper a,
+div.footer-wrapper p {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer-wrapper div {
+    flex: 0 0 20%;
+}
+
+.footer-wrapper div.contacts {
+    flex: 0 0 40%;
+}
+
+.footer-wrapper div.logo {
+    flex: 0 0 100%;
+}
+
+div.logo img.logo {
+    margin-bottom: 20px;
+}
+
+.contacts p {
+    margin-bottom: 15px;
+}
+
+.contacts p img {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.footer-wrapper div a {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.footer-wrapper div a:hover {
+    text-decoration: underline;
+    color: hsla(170, 45%, 43%, 1);
+}
+
+.footer-wrapper div i {
+    color:white;
+    font-size: 18px;
+    border: 1px solid white;
+    padding: 7px;
+    margin-left: 7px;
+    border-radius: 100%;
+}
+
+.footer-wrapper div i:hover {
+    color: hsla(170, 45%, 43%, 1);
+    border: 1px solid hsla(170, 45%, 43%, 1);
+}
+
+footer .atribution {
+    width: 100%;
+    margin: 50px auto 0;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+footer .atribution a {
+    color: white;
+}
+
+
+/* MEDIA BREAKPOINTS */
+
+@media (max-width: 1120px) {
+
+    .testimonials-wrapper .testimonials-block {
+        flex: 0 0 40%;
+    }
+
+    .testimonials-wrapper .testimonials-image {
+        flex: 0 0 60%;
+    }
+
+    .right-block form input:first-child {
+        width: 400px;
+    }
+
+    div.header-wrapper nav {
+        padding-right: 0px;
+    }
+
+    .testimonials-wrapper .testimonials-block .review-block {
+        width: 70%;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .testimonials-wrapper,
+    .get-started-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .get-started-wrapper .get-started-block,
+    .testimonials-wrapper .testimonials-block {
+        flex: 0 0 100%;
+        text-align: center;
+
+    }
+
+    .get-started-wrapper .image-block,
+    .testimonials-wrapper .testimonials-image {
+        flex: 0 0 100%;
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .testimonials-wrapper .testimonials-block .testimonials-text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .testimonials-wrapper .testimonials-block .review-block {
+        width: 50%;
+        padding: 20px 35px;
+        margin: 50px auto 20px;
+    }
+
+    .bottom-section-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .bottom-section-wrapper .left-block,
+    .bottom-section-wrapper .right-block {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .left-block p {
+        padding-right: 0;
+    }
+    
+    .right-block form {
+        margin: 25px auto 0;
+    }
+    
+    .right-block form input {
+        margin: 0 auto;
+    }
+
+    .right-block form input:first-child {
+        width: 50%;
+    }
+
+    .right-block form input:nth-child(2) {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .get-started-block form {
+        margin: 25px auto 0;
+    }
+    
+    .get-started-block form input {
+        margin: 7px auto;
+    }
+
+    .get-started-block form input:first-child {
+        width: 50%;
+    }
+
+    .get-started-block form input:nth-child(2) {
+        width: 50%;
+    }
+
+    .get-started-wrapper .image-block img,
+    .testimonials-wrapper .testimonials-image img {
+        width: 100%;
+    }
+
+
+    .footer-wrapper div {
+        flex: 0 0 20%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-wrapper div.contacts {
+        flex: 0 0 60%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-wrapper div:nth-child(5) {
+        padding-top: 20px;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 525px) {
+
+    .footer-wrapper div {
+        flex: 0 0 100%;
+    }
+
+    .footer-wrapper div.contacts {
+        flex: 0 0 60%;
+    }
+
+    .footer-wrapper div:nth-child(5) {
+        margin: auto 0;
+        text-align: center;
+    }
+
+    .get-started-block form input:first-child,
+    .get-started-block form input:nth-child(2),
+    .right-block form input:first-child,
+    .right-block form input:nth-child(2) {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px; 
+    }
+
+    .testimonials-wrapper .testimonials-block .review-block {
+        width: 100%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    div.header-wrapper,
+    .get-started-wrapper,
+    .testimonials-wrapper,
+    .bottom-section-wrapper,
+    .footer-wrapper {
+        padding: 30px 45px;
+    }
+
+    div.header-wrapper nav a {
+        font-size: 13px;
+        padding-left: 10px;
+    }
+
+    div.header-wrapper img {
+        width: 120px;
+    }
+
+    .get-started-wrapper .image-block,
+    .testimonials-wrapper .testimonials-image {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media (max-width: 426px) {
+
+    .footer-wrapper div {
+        flex: 0 0 100%;
+
+    }
+
+    .footer-wrapper div.contacts {
+        flex: 0 0 100%;
+    }
+
+}
+
+@media (max-width: 321px) {
+
+    div.header-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    div.header-wrapper nav {
+        padding-top: 20px;
+        flex: 0 0 100%;
+    }
+
+}
